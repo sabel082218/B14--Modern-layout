@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>John Doe</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-overlay">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Your next web developer!</p>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <figure>
+      <img src="profile.jpg" alt="John Doe" />
+      <figcaption>John Doe</figcaption>
+    </figure>
+    <p>Hi, I'm John Doe, a passionate web developer skilled in HTML, CSS, and JavaScript. I build responsive, user-friendly websites.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <article>
+      <h2>Project 1</h2>
+      <img src="project1.jpg" alt="Project 1">
+      <p>This is a description of my first project.</p>
+    </article>
+    <article>
+      <h2>Project 2</h2>
+      <img src="project2.jpg" alt="Project 2">
+      <p>This is a description of my second project.</p>
+    </article>
+    <article>
+      <h2>Project 3</h2>
+      <img src="project3.jpg" alt="Project 3">
+      <p>This is a description of my third project.</p>
+    </article>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <form action="#">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 John Doe</p>
+    <div class="social-links">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+    </div>
+  </footer>
+
+</body>
+</html>
